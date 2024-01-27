@@ -30,7 +30,7 @@ root = tk.Tk()
 root.title("Conversor de monedas")
 
 # Crear los widgets
-cantidad_label = tk.Label(root, text="A cuanto está el dolar:")
+cantidad_label = tk.Label(root, text="Valor a cambiar:")
 cantidad_input = tk.Entry(root)
 operacion_var = tk.IntVar()
 operacion_label = tk.Label(root, text="Operación:")
